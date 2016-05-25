@@ -1,6 +1,11 @@
+{% load staticfiles %}
 
-{% extends 'blog/add.html' %}
-
+{% include 'communitycrmapp/header.html' %}
+<br>
+<p>
+  Include any instructions about how to fill out the form.
+</p>
+<br>
 {% block content %}
     <h1>New Member</h1>
     <form method="POST">{% csrf_token %}
@@ -8,3 +13,5 @@
         <button type="submit" class="save btn btn-default">Save</button>
     </form>
 {% endblock %}
+
+{% include 'communitycrmapp/footer.html' %}

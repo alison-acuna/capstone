@@ -4,8 +4,8 @@ from django.db import models
 
 
 class Member(models.Model):
-    name = models.IntegerField(max_length=50)
-    number = models.CharField(max_length=200)
+    name = models.CharField(max_length=200)
+    number = models.CharField(max_length=12)
     email = models.EmailField()
     fbpagelink = models.URLField()
     address = models.TextField()
