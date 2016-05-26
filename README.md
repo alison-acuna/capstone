@@ -9,30 +9,56 @@ I crafting a CRM for community.  This will include a page to input member data, 
 ###Entities:
 
 Name
+
 E-mail
+
 FB Page
+
 Number
+
 Address
+
 Meetup Member Linke
+
 Events Attended
+
 Get Events()
+
 Events Hosted
+
 Get Events Hosted()
+
 OHB
+
 Last Date Contributed
+
 Number of contributions this year
+
 Launch Team
+
 Last Date Contributed
+
 Number of contributions this year
+
 Gratitude Fairy
+
 Last Date Contributed
+
 Number of contributions this year
+
 Other
+
 Last Date Contributed
+
 Number of contributions this year
+
 FB Group Member Last Post or Comment
+
 Get Last Post()
+
 Last Donation
+
 Donation Amount
+
 
 
