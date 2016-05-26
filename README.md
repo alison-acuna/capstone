@@ -1,6 +1,6 @@
 # capstone
 
-I am going to craft a CRM for community.  This will include a page to input member data, a database of member data, the ability to search that database.  If I am successful, I will also include the ability to pull data from Meetups and integrate it into the member file.
+I crafting a CRM for community.  This will include a page to input member data, a database of member data, the ability to search that database.  If I am successful, I will also include the ability to pull data from Meetups and integrate it into the member file.
 
 Stack: HTML, CSS, Bootstrap, Python, Django
 
