@@ -1,4 +1,3 @@
-
 {% load staticfiles %}
 
 {% include 'communitycrmapp/header.html' %}
@@ -10,12 +9,6 @@
   Any instructions
 </p>
 {% include 'communitycrmapp/search.html' %}
-{% block main %}
-<br>
-{% for member in member_by_name %}
-{% include 'communitycrmapp/member.html' %}
-{% endfor %}
-<p> flag </p>
-{% endblock %}
+
 
 {% include 'communitycrmapp/footer.html' %}

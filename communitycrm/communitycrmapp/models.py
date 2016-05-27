@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 # Create your models here.
 
@@ -10,6 +11,7 @@ class Member(models.Model):
     fbpagelink = models.URLField()
     address = models.TextField()
     meetuplink = models.URLField()
+    
 
     def publish(self):
         self.published_date = timezone.now()

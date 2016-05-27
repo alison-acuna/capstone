@@ -1,4 +1,5 @@
-<form method="get" action="/search/">
-  Search by Name: <input type="text" name="name" value="{{ query }}"/>
-  <input type="submit" value="Search"/>
-<form>
+<form method="POST" action="/searchbyname">
+  {% csrf_token %}
+  Search by Name: <input type="text" name="namequery"/>
+  <button type="submit"> Search by Name </button>
+</form>
