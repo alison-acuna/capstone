@@ -11,7 +11,16 @@ class Member(models.Model):
     fbpagelink = models.URLField()
     address = models.TextField()
     meetuplink = models.URLField()
-    
+    polynteer = models.BooleanField()
+    eventshosted = models.SmallIntegerField()
+    eventshostedname = models.CharField(max_length=200)
+    ohb = models.BooleanField()
+    ohbcontributions = models.SmallIntegerField()
+    launchteam = models.BooleanField()
+    launchteamcontributions = models.SmallIntegerField()
+    fbgroupmember = models.BooleanField()
+    donationtotalammount = models.SmallIntegerField()
+
 
     def publish(self):
         self.published_date = timezone.now()
