@@ -11,11 +11,35 @@
 </p>
 {% include 'communitycrmapp/search.html' %}
 {% block main %}
-<br>
 {% for member in member_by_name %}
+<br>
 {% include 'communitycrmapp/member.html' %}
 {% endfor %}
-<p> flag </p>
+{% for member in member_by_volunteer %}
+<br>
+{% include 'communitycrmapp/member.html' %}
+{% endfor %}
+{% for member in member_by_host %}
+<br>
+{% include 'communitycrmapp/member.html' %}
+{% endfor %}
+{% for member in member_by_ohb %}
+<br>
+{% include 'communitycrmapp/member.html' %}
+{% endfor %}
+{% for member in member_by_lt %}
+<br>
+{% include 'communitycrmapp/member.html' %}
+{% endfor %}
+{% for member in member_by_fb %}
+<br>
+{% include 'communitycrmapp/member.html' %}
+{% endfor %}
+{% for member in donor %}
+<br>
+{% include 'communitycrmapp/member.html' %}
+{% endfor %}
+
 {% endblock %}
 
 {% include 'communitycrmapp/footer.html' %}
